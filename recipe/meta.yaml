@@ -1,7 +1,7 @@
 {% set name = "hyperspy-gui-traitsui" %}
 {% set filename = "hyperspy_gui_traitsui" %}
-{% set version = "1.0.3" %}
-{% set sha256 = "a2c8ca1917babee6c604a14988dc7907e8d13581c6307863e71d0cab05d27a74" %}
+{% set version = "1.0.4" %}
+{% set sha256 = "ebfe1519ac630b6b962821f767f10a49b02ef4b6770fae122df50717553ff743" %}
 
 
 package:
@@ -26,8 +26,8 @@ requirements:
 
   run:
     - python
-    - pyqt 4.11.*
-    - traitsui >=5.0
+    - pyqt
+    - traitsui >=6.0
     - hyperspy >=1.3
 
 test:
