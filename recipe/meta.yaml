@@ -1,7 +1,7 @@
 {% set name = "hyperspy-gui-traitsui" %}
 {% set filename = "hyperspy_gui_traitsui" %}
-{% set version = "1.0.4" %}
-{% set sha256 = "ebfe1519ac630b6b962821f767f10a49b02ef4b6770fae122df50717553ff743" %}
+{% set version = "1.0.5" %}
+{% set sha256 = "0a525066cb03b3f1ad1e38ebc9f6573162f4fc5716acc97b09017fc5d902d5c8" %}
 
 
 package:
