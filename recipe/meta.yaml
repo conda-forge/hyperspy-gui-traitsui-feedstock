@@ -37,6 +37,7 @@ test:
 
   requires:
     - pytest
+    - pillow >5.2
 
 about:
   home: https://github.com/hyperspy/hyperspy_gui_traitsui
