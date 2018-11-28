@@ -14,9 +14,8 @@ Summary: traitsui GUI elements for HyperSpy.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/hyperspy-gui-traitsui-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/hyperspy-gui-traitsui-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/hyperspy-gui-traitsui-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/hyperspy-gui-traitsui-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/hyperspy-gui-traitsui-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/hyperspy-gui-traitsui-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/hyperspy-gui-traitsui-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/hyperspy-gui-traitsui-feedstock)
 
 Current release info
 ====================

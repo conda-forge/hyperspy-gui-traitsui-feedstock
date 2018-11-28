@@ -15,14 +15,14 @@ source:
 
 
 build:
-  number: 1000
-  skip: True  # [py2k]
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 1
+  noarch: python
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv "
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
 
   run:
     - python
@@ -32,12 +32,11 @@ requirements:
 
 test:
   commands:
-    - export MPLBACKEND="agg"  # [unix]
+    - export MPLBACKEND="agg"
     - py.test --pyargs hyperspy_gui_traitsui
 
   requires:
     - pytest
-    - pillow >5.2
 
 about:
   home: https://github.com/hyperspy/hyperspy_gui_traitsui
