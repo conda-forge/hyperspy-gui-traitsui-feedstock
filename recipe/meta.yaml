@@ -21,11 +21,11 @@ build:
 
 requirements:
   build:
-    - python
+    - python >=3.5
     - pip
 
   run:
-    - python
+    - python >=3.5
     - pyqt
     - traitsui >=6.0
     - hyperspy >=1.4
@@ -33,7 +33,7 @@ requirements:
 test:
   commands:
     - export MPLBACKEND="agg"
-    - py.test --pyargs hyperspy_gui_traitsui
+    - pytest --pyargs hyperspy_gui_traitsui
 
   requires:
     - pytest
