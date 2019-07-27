@@ -1,7 +1,7 @@
 {% set name = "hyperspy-gui-traitsui" %}
 {% set filename = "hyperspy_gui_traitsui" %}
-{% set version = "1.1.1" %}
-{% set sha256 = "2837e605c18184710874a04ab8fbd26f17a0d69f3afb658df361d7edeb926383" %}
+{% set version = "1.2" %}
+{% set sha256 = "0569d1d6c8b7b145dfa8536a59265a5a7895493f2287f20b90f397ddcdc89e47" %}
 
 
 package:
@@ -15,7 +15,7 @@ source:
 
 
 build:
-  number: 3
+  number: 0
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv "
 
@@ -28,7 +28,7 @@ requirements:
     - python >=3.5
     - pyqt
     - traitsui >=6.0
-    - hyperspy-base
+    - hyperspy-base >=1.5
 
 test:
   commands:
