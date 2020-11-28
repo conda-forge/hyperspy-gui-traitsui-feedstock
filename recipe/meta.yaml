@@ -1,7 +1,7 @@
 {% set name = "hyperspy-gui-traitsui" %}
 {% set filename = "hyperspy_gui_traitsui" %}
-{% set version = "1.3.0" %}
-{% set sha256 = "0d69ab510045ce57d561b7fc43aa70a71271bbd2ba344b924aa32065ea36b5c6" %}
+{% set version = "1.3.1" %}
+{% set sha256 = "62d98e750e00bd3052a8244952199a1d172978d5ec2971e2bb08fff9f460b0dd" %}
 
 
 package:
@@ -20,7 +20,7 @@ build:
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv '
 
 requirements:
-  build:
+  host:
     - python >=3.5
     - pip
 
