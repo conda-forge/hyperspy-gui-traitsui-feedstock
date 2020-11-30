@@ -5,11 +5,9 @@ Home: https://github.com/hyperspy/hyperspy_gui_traitsui
 
 Package license: GPL v3
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hyperspy-gui-traitsui-feedstock/blob/master/LICENSE.txt)
 
 Summary: traitsui GUI elements for HyperSpy.
-
-
 
 Current build status
 ====================
