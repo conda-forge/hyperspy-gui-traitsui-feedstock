@@ -21,14 +21,15 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
 
   run:
-    - python >=3.6
+    - python >=3.7
     - pyqt
-    - traitsui >=6.0
-    - hyperspy-base >=1.6.2
+    - traits >=5.0
+    - traitsui >=6.1
+    - hyperspy-base >=1.7.0
 
 test:
   imports:
