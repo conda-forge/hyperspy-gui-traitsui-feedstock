@@ -34,7 +34,10 @@ requirements:
 test:
   imports:
     - hyperspy_gui_traitsui
-
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/hyperspy/hyperspy_gui_traitsui
