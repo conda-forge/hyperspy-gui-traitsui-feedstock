@@ -28,7 +28,7 @@ requirements:
     - python >=3.7
     - pyqt
     - traits >=5.0
-    - traitsui >=6.1
+    - traitsui >=6.1,!=8.0.0
     - hyperspy-base >=1.7.0
 
 test:
