@@ -21,15 +21,17 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
     - pip
+    - setuptools >=64
+    - setuptools-scm >=8
 
   run:
-    - python >=3.7
+    - python >=3.8
     - pyqt
     - traits >=5.0
     - traitsui >=6.1,!=8.0.0
-    - hyperspy-base >=1.7.0
+    - hyperspy-base >=2.0
 
 test:
   imports:
