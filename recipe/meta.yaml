@@ -29,7 +29,6 @@ requirements:
   run:
     - python >={{ python_min }}
     - link-traits
-    - pyqt
     - traits >=5.0
     - traitsui >=7.3
     - hyperspy-base >=2.1.0
