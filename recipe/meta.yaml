@@ -15,7 +15,7 @@ source:
 
 
 build:
-  number: 1
+  number: 2
   noarch: python
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv '
 
@@ -29,7 +29,6 @@ requirements:
   run:
     - python >={{ python_min }}
     - link-traits
-    - pyqt
     - traits >=5.0
     - traitsui >=7.3
     - hyperspy-base >=2.1.0
