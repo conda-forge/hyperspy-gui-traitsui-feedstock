@@ -28,10 +28,9 @@ requirements:
 
   run:
     - python >={{ python_min }}
-    - link-traits
-    - traits >=5.0
-    - traitsui >=7.3
-    - hyperspy-base >=2.1.0
+    - traits >=6.3
+    - traitsui >=8.0
+    - hyperspy-base >=2.3.0
 
 test:
   imports:
