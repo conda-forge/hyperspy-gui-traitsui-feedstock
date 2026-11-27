@@ -1,7 +1,7 @@
 {% set name = "hyperspy-gui-traitsui" %}
 {% set filename = "hyperspy_gui_traitsui" %}
-{% set version = "2.1.1" %}
-{% set sha256 = "9818940aa0cf67640b862b23d824da9b6fe7c2d87f2d4e3068aa974e77ecd0d8" %}
+{% set version = "2.2.0" %}
+{% set sha256 = "dd088fe847dfdcbc4abc231dac72ab227b51f25ebeec0d3eda4e440b6e1682cc" %}
 
 
 package:
@@ -30,7 +30,7 @@ requirements:
     - python >={{ python_min }}
     - traits >=6.3
     - traitsui >=8.0
-    - hyperspy-base >=2.3.0
+    - hyperspy-base >=2.6.0
 
 test:
   imports:
